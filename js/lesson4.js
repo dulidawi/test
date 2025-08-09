@@ -32,17 +32,17 @@
 // }
 // console.log(price);
 
-let price
-const subscription = "premium";
-if (subscription === "free") {
-    price = 0
-} else if (subscription === "pro") {
-    price = 100;
-} else if (subscription === "premium") {
-    price = 1000
-} else console.log("Error");
+// let price
+// const subscription = "premium";
+// if (subscription === "free") {
+//     price = 0
+// } else if (subscription === "pro") {
+//     price = 100;
+// } else if (subscription === "premium") {
+//     price = 1000
+// } else console.log("Error");
 
-console.log(price);
+// console.log(price);
 
 
 
