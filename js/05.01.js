@@ -153,7 +153,7 @@ const pets = [
 // const findFavoriteFood = (array) => array.map((item) => item.favoriteFoods).flat(3);
 // console.log(findFavoriteFood(pets));
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 43, 567, 23, 456];
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 43, 567, 23, 456];
 // let res = 0;
 // for (const num of array) {
 //     res += num
@@ -251,6 +251,35 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 43, 567, 23, 456];
 //     return acc
 // }, [])
 // console.log(newTags);
+
+
+// const array = [1, 25, 3, 4, 53, 6, 7, 8, 129, 10];
+// // const result = array.sort()
+// // console.log(result);
+
+// // const newArray = array.slice()
+// // console.log(newArray);
+
+// const copyArray = [...array]
+// const result = copyArray.sort((a, b) => a - b)
+// console.log(result);
+
+const words = ["кіт", "собака", "миша", "папуга", "хомяк"];
+const result = [...words].sort((a, b) => a.localeCompare(b))
+  console.log(result);
+  
+
+
+
+
+
+
+
+const letters = ['a', 'A', 'D', 'd', 'W'];
+console.log(letters.sort());
+
+
+
 
 
 
