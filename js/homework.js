@@ -1,237 +1,237 @@
-const users = [
-  {
-    id: '701b29c3-b35d-4cf1-a5f6-8b12b29a5081',
-    name: 'Moore Hensley',
-    email: 'moorehensley@indexia.com',
-    eyeColor: 'blue',
-    friends: ['Sharron Pace'],
-    isActive: false,
-    balance: 2811,
-    skills: ['ipsum', 'lorem'],
-    gender: 'male',
-    age: 37,
-  },
+// const users = [
+//   {
+//     id: '701b29c3-b35d-4cf1-a5f6-8b12b29a5081',
+//     name: 'Moore Hensley',
+//     email: 'moorehensley@indexia.com',
+//     eyeColor: 'blue',
+//     friends: ['Sharron Pace'],
+//     isActive: false,
+//     balance: 2811,
+//     skills: ['ipsum', 'lorem'],
+//     gender: 'male',
+//     age: 37,
+//   },
 
-  {
+//   {
 
-    id: '7a3cbd18-57a1-4534-8e12-1caad921bda1',
+//     id: '7a3cbd18-57a1-4534-8e12-1caad921bda1',
 
-    name: 'Sharlene Bush',
+//     name: 'Sharlene Bush',
 
-    email: 'sharlenebush@tubesys.com',
+//     email: 'sharlenebush@tubesys.com',
 
-    eyeColor: 'blue',
+//     eyeColor: 'blue',
 
-    friends: ['Briana Decker', 'Sharron Pace'],
+//     friends: ['Briana Decker', 'Sharron Pace'],
 
-    isActive: true,
+//     isActive: true,
 
-    balance: 3821,
+//     balance: 3821,
 
-    skills: ['tempor', 'mollit', 'commodo', 'veniam', 'laborum'],
+//     skills: ['tempor', 'mollit', 'commodo', 'veniam', 'laborum'],
 
-    gender: 'female',
+//     gender: 'female',
 
-    age: 34,
+//     age: 34,
 
-  },
+//   },
 
-  {
+//   {
 
-    id: '88beb2f3-e4c2-49f3-a0a0-ecf957a95af3',
+//     id: '88beb2f3-e4c2-49f3-a0a0-ecf957a95af3',
 
-    name: 'Ross Vazquez',
+//     name: 'Ross Vazquez',
 
-    email: 'rossvazquez@xinware.com',
+//     email: 'rossvazquez@xinware.com',
 
-    eyeColor: 'green',
+//     eyeColor: 'green',
 
-    friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
+//     friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
 
-    isActive: false,
+//     isActive: false,
 
-    balance: 3793,
+//     balance: 3793,
 
-    skills: ['nulla', 'anim', 'proident', 'ipsum', 'elit'],
+//     skills: ['nulla', 'anim', 'proident', 'ipsum', 'elit'],
 
-    gender: 'male',
+//     gender: 'male',
 
-    age: 24,
+//     age: 24,
 
-  },
+//   },
 
-  {
+//   {
 
-    id: '249b6175-5c30-44c6-b154-f120923736f5',
+//     id: '249b6175-5c30-44c6-b154-f120923736f5',
 
-    name: 'Elma Head',
+//     name: 'Elma Head',
 
-    email: 'elmahead@omatom.com',
+//     email: 'elmahead@omatom.com',
 
-    eyeColor: 'green',
+//     eyeColor: 'green',
 
-    friends: ['Goldie Gentry', 'Aisha Tran'],
+//     friends: ['Goldie Gentry', 'Aisha Tran'],
 
-    isActive: true,
+//     isActive: true,
 
-    balance: 2278,
+//     balance: 2278,
 
-    skills: ['adipisicing', 'irure', 'velit'],
+//     skills: ['adipisicing', 'irure', 'velit'],
 
-    gender: 'female',
+//     gender: 'female',
 
-    age: 21,
+//     age: 21,
 
-  },
+//   },
 
-  {
+//   {
 
-    id: '334f8cb3-eb04-45e6-abf4-4935dd439b70',
+//     id: '334f8cb3-eb04-45e6-abf4-4935dd439b70',
 
-    name: 'Carey Barr',
+//     name: 'Carey Barr',
 
-    email: 'careybarr@nurali.com',
+//     email: 'careybarr@nurali.com',
 
-    eyeColor: 'blue',
+//     eyeColor: 'blue',
 
-    friends: ['Jordan Sampson', 'Eddie Strong'],
+//     friends: ['Jordan Sampson', 'Eddie Strong'],
 
-    isActive: true,
+//     isActive: true,
 
-    balance: 3951,
+//     balance: 3951,
 
-    skills: ['ex', 'culpa', 'nostrud'],
+//     skills: ['ex', 'culpa', 'nostrud'],
 
-    gender: 'male',
+//     gender: 'male',
 
-    age: 27,
+//     age: 27,
 
-  },
+//   },
 
-  {
+//   {
 
-    id: '150b00fb-dd82-427d-9faf-2879ea87c695',
+//     id: '150b00fb-dd82-427d-9faf-2879ea87c695',
 
-    name: 'Blackburn Dotson',
+//     name: 'Blackburn Dotson',
 
-    email: 'blackburndotson@furnigeer.com',
+//     email: 'blackburndotson@furnigeer.com',
 
-    eyeColor: 'brown',
+//     eyeColor: 'brown',
 
-    friends: ['Jacklyn Lucas', 'Linda Chapman'],
+//     friends: ['Jacklyn Lucas', 'Linda Chapman'],
 
-    isActive: false,
+//     isActive: false,
 
-    balance: 1498,
+//     balance: 1498,
 
-    skills: ['non', 'amet', 'ipsum'],
+//     skills: ['non', 'amet', 'ipsum'],
 
-    gender: 'male',
+//     gender: 'male',
 
-    age: 38,
+//     age: 38,
 
-  },
+//   },
 
-  {
+//   {
 
-    id: 'e1bf46ab-7168-491e-925e-f01e21394812',
+//     id: 'e1bf46ab-7168-491e-925e-f01e21394812',
 
-    name: 'Sheree Anthony',
+//     name: 'Sheree Anthony',
 
-    email: 'shereeanthony@kog.com',
+//     email: 'shereeanthony@kog.com',
 
-    eyeColor: 'brown',
+//     eyeColor: 'brown',
 
-    friends: ['Goldie Gentry', 'Briana Decker'],
+//     friends: ['Goldie Gentry', 'Briana Decker'],
 
-    isActive: true,
+//     isActive: true,
 
-    balance: 2764,
+//     balance: 2764,
 
-    skills: ['lorem', 'veniam', 'culpa'],
+//     skills: ['lorem', 'veniam', 'culpa'],
 
-    gender: 'female',
+//     gender: 'female',
 
-    age: 39,
+//     age: 39,
 
-  },
+//   },
 
-];
+// ];
 
 
+
+// // // Завдання 1
+
+// // // Отримати масив імен всіх користувачів (поле name).
+
+// // const getUserNames = users => users.map(({name}) => name);
+// // console.log(getUserNames(users));
+
+// // // Завдання 2
+
+// // // Отримати масив об'єктів користувачів за кольором очей (поле eyeColor).
+
+// // const getUsersWithEyeColor = (users, color) => users.filter(({eyeColor}) => eyeColor === color)
+// // console.log(getUsersWithEyeColor(users, 'blue')); // [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Carey Barr]
+
+// // // Завдання 3
+
+// // Отримати масив імен користувачів за статтю (поле gender)
+// // const getUsersWithGender = (users, gender) => users.filter((item) => item.gender === gender).map(({name}) => name);
+// // console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+
+
+// // // Завдання 4
+
+// // // Отримати масив тільки неактивних користувачів (поле isActive).
+
+// // const getInactiveUsers = users => users.filter(({isActive}) => !isActive);
+// // console.log(getInactiveUsers(users)); // [об'єкт Moore Hensley, об'єкт Ross Vazquez, об'єкт Blackburn Dotson]
+
+
+// // // Завдання 5
+
+// // // Отримати користувача (не масив) по email (поле email, він унікальний).
+
+// // const getUserWithEmail = (users, email) => users.find(({email}) => email === email)
+
+// // console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {об'єкт користувача Sheree Anthony}
+// // console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {об'єкт користувача Elma Head}
+
+
+// /// 15
 
 // // Завдання 1
 
-// // Отримати масив імен всіх користувачів (поле name).
+// // Отримати загальну суму балансу (поле balance) всіх користувачів.
 
-// const getUserNames = users => users.map(({name}) => name);
-// console.log(getUserNames(users));
+// const calculateTotalBalance = users => users.reduce((acc, {balance}) => acc + balance,0);
+// console.log(calculateTotalBalance(users)); // 20916
 
 // // Завдання 2
 
-// // Отримати масив об'єктів користувачів за кольором очей (поле eyeColor).
+// // Масив імен всіх користувачів у яких є друг із зазначеним ім'ям.
 
-// const getUsersWithEyeColor = (users, color) => users.filter(({eyeColor}) => eyeColor === color)
-// console.log(getUsersWithEyeColor(users, 'blue')); // [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Carey Barr]
+// const getUsersWithFriend = (users, friendName) => users.filter(({ friends }) => friends.includes(friendName)).map(({ name }) => name);
+
+// console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
+// console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
+
 
 // // Завдання 3
 
-// Отримати масив імен користувачів за статтю (поле gender)
-// const getUsersWithGender = (users, gender) => users.filter((item) => item.gender === gender).map(({name}) => name);
-// console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+// // Масив імен (поле name) людей, відсортованих в залежності від кількості їх друзів (поле friends)
+
+// const getNamesSortedByFriendsCount = users => [...users].sort((a,b) => a.friends.length - b.friends.length).map(({name}) => name)
+// console.log(getNamesSortedByFriendsCount(users));
+// // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
 
 
 // // Завдання 4
 
-// // Отримати масив тільки неактивних користувачів (поле isActive).
+// // Отримати масив всіх умінь всіх користувачів (поле skills), при цьому не має бути повторюваних умінь і вони повинні бути відсортовані в алфавітному порядку.
 
-// const getInactiveUsers = users => users.filter(({isActive}) => !isActive);
-// console.log(getInactiveUsers(users)); // [об'єкт Moore Hensley, об'єкт Ross Vazquez, об'єкт Blackburn Dotson]
+// const getSortedUniqueSkills = users => users.flatMap(({skills}) => skills).filter((item, idx, arr) => arr.indexOf(item) === idx).sort((a,b) => a.localeCompare(b))
 
-
-// // Завдання 5
-
-// // Отримати користувача (не масив) по email (поле email, він унікальний).
-
-// const getUserWithEmail = (users, email) => users.find(({email}) => email === email)
-
-// console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {об'єкт користувача Sheree Anthony}
-// console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {об'єкт користувача Elma Head}
-
-
-/// 15
-
-// Завдання 1
-
-// Отримати загальну суму балансу (поле balance) всіх користувачів.
-
-const calculateTotalBalance = users => users.reduce((acc, {balance}) => acc + balance,0);
-console.log(calculateTotalBalance(users)); // 20916
-
-// Завдання 2
-
-// Масив імен всіх користувачів у яких є друг із зазначеним ім'ям.
-
-const getUsersWithFriend = (users, friendName) => users.filter(({ friends }) => friends.includes(friendName)).map(({ name }) => name);
-
-console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
-console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
-
-
-// Завдання 3
-
-// Масив імен (поле name) людей, відсортованих в залежності від кількості їх друзів (поле friends)
-
-const getNamesSortedByFriendsCount = users => [...users].sort((a,b) => a.friends.length - b.friends.length).map(({name}) => name)
-console.log(getNamesSortedByFriendsCount(users));
-// [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
-
-
-// Завдання 4
-
-// Отримати масив всіх умінь всіх користувачів (поле skills), при цьому не має бути повторюваних умінь і вони повинні бути відсортовані в алфавітному порядку.
-
-const getSortedUniqueSkills = users => users.flatMap(({skills}) => skills).filter((item, idx, arr) => arr.indexOf(item) === idx).sort((a,b) => a.localeCompare(b))
-
-console.log(getSortedUniqueSkills(users));
-// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
+// console.log(getSortedUniqueSkills(users));
+// // [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
