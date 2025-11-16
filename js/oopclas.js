@@ -81,36 +81,36 @@
 
 // Створіть клас Calculator, який буде мати наступні методи: add(), subtract(), multiply(), divide(). Кожен метод приймає два аргументи - числа, які необхідно обробити. Результатом кожного методу має бути результат відповідної математичної операції.
 
-class Calculator{
-    constructor(firstNumber, secondNumber){
-        this.firstNumber = firstNumber,
-        this.secondNumber = secondNumber
-    }
+// class Calculator{
+//     constructor(firstNumber, secondNumber){
+//         this.firstNumber = firstNumber,
+//         this.secondNumber = secondNumber
+//     }
 
-    add(firstNumber, secondNumber){
-        return firstNumber + secondNumber
-    }
-    subtract(firstNumber, secondNumber){
-        return firstNumber - secondNumber
-    }
-    multiply(firstNumber, secondNumber){
-        return firstNumber * secondNumber
-    }
-    divide(firstNumber, secondNumber){
-        if(secondNumber === 0 ){
-            return "на нуль ділити не можна"
-        }else{
-            return firstNumber / secondNumber
-        }
-    }
-}
+//     add(firstNumber, secondNumber){
+//         return firstNumber + secondNumber
+//     }
+//     subtract(firstNumber, secondNumber){
+//         return firstNumber - secondNumber
+//     }
+//     multiply(firstNumber, secondNumber){
+//         return firstNumber * secondNumber
+//     }
+//     divide(firstNumber, secondNumber){
+//         if(secondNumber === 0 ){
+//             return "на нуль ділити не можна"
+//         }else{
+//             return firstNumber / secondNumber
+//         }
+//     }
+// }
 
 
-const calculator = new Calculator();
-console.log(calculator);
+// const calculator = new Calculator();
+// console.log(calculator);
 
-console.log(calculator.add(2, 3)); // 5
-console.log(calculator.subtract(5, 2)); // 3
-console.log(calculator.multiply(2, 4)); // 8
-console.log(calculator.divide(10, 2)); // 5
-console.log(calculator.divide(10, 0)); // На нуль ділити не можна
+// console.log(calculator.add(2, 3)); // 5
+// console.log(calculator.subtract(5, 2)); // 3
+// console.log(calculator.multiply(2, 4)); // 8
+// console.log(calculator.divide(10, 2)); // 5
+// console.log(calculator.divide(10, 0)); // На нуль ділити не можна
